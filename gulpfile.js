@@ -13,7 +13,7 @@ gulp.task("copy-index",function(){
 ;
 });
 gulp.task("copy-images",function(){
-	gulp.src("images/**").pipe(gulp.dest("dist/images"));
+	gulp.src("image/**").pipe(gulp.dest("dist/images"));
 });
 gulp.task("data",function(){
 	gulp.src("json/*").pipe(gulp.dest("dist/data"));
@@ -23,6 +23,7 @@ gulp.task("watch",function(){
 	gulp.watch("*.html",["copy-index"]);
 	gulp.watch("sass/*.scss",["sass"]);
 	gulp.watch("json/*.json",["data"]);
+	gulp.watch("image/*.png",["copy-images"]);
 })
 
 gulp.task("sass",function(){

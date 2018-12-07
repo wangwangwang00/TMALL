@@ -13,11 +13,16 @@ img{
     border: none;
 }
 .regist{
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
     width: 1000px;
     height: 772px;
     background: #f5f5f5;
     margin: 0 auto;
+    img{
+        width: 200px;
+        height: 34px;
+        margin-left: 40px;
+    }
     p{
         width: 200px;
         height: 40px;
@@ -31,7 +36,7 @@ img{
         float: right;
         margin-right: 155px;
         a{
-            color: green;
+            color: #ff0036;
         }
     }
     form{
@@ -85,7 +90,7 @@ img{
         #btn{
             width: 270px;
             height: 36px;
-            background: #6e9b0c;
+            background: #ff0036;
             color:#fff;
             border-radius: 10px;
             border: 0;
