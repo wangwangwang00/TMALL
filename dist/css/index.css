@@ -117,21 +117,23 @@ img {
       #nav #bottom ul li a {
         color: #333333; }
 
-#banner img {
-  width: 100%;
-  height: 500px; }
+#banner {
+  margin: 0 74px 0 35px; }
+  #banner img {
+    width: 100%;
+    height: 500px; }
 
 #list {
   width: 100%;
   height: 385px;
   background: #f5f5f5;
-  padding-bottom: 35px; }
+  padding-bottom: 10px; }
   #list #left {
     float: left;
     width: 235px;
     height: 370px;
     background: #fff;
-    margin: 0 12px 0 35px; }
+    margin: 0 16px 0 35px; }
     #list #left p {
       height: 55px;
       line-height: 55px;
@@ -142,7 +144,7 @@ img {
     width: 485px;
     height: 370px;
     background: #fff;
-    margin-right: 12px; }
+    margin-right: 18px; }
     #list #center p {
       height: 55px;
       line-height: 55px;
@@ -151,7 +153,8 @@ img {
       float: left; }
     #list #center span {
       float: right;
-      margin-right: 13px; }
+      margin-right: 13px;
+      line-height: 55px; }
   #list #right {
     float: left;
     width: 485px;
@@ -161,4 +164,338 @@ img {
       height: 55px;
       line-height: 55px;
       margin-left: 10px;
-      font-weight: 600; }
+      font-weight: 600;
+      float: left; }
+    #list #right span {
+      float: right;
+      margin-right: 13px;
+      line-height: 55px; }
+
+.slist {
+  width: 100%;
+  height: 340px;
+  background: #f5f5f5; }
+  .slist ul {
+    margin: 0px 50px 0 30px;
+    width: 1240px;
+    padding-left: 8px; }
+    .slist ul li {
+      float: left;
+      margin-right: 1px;
+      margin-bottom: 1px; }
+
+#market {
+  width: 100%;
+  height: 678px;
+  background: #f5f5f5; }
+  #market #m-top {
+    height: 30px;
+    padding-top: 20px; }
+    #market #m-top img {
+      margin-left: 35px;
+      float: left; }
+    #market #m-top ul {
+      margin-right: 75px; }
+      #market #m-top ul li {
+        float: right;
+        font-size: 12px;
+        margin: 0 12px; }
+        #market #m-top ul li a {
+          color: #000; }
+  #market #m-bottom {
+    position: relative;
+    height: 620px;
+    margin: 0 70px 0 35px; }
+    #market #m-bottom #m-left img {
+      float: left; }
+    #market #m-bottom #m-left #hufu {
+      position: absolute;
+      width: 200px;
+      height: 65px;
+      top: 428px; }
+      #market #m-bottom #m-left #hufu a {
+        color: #fff; }
+      #market #m-bottom #m-left #hufu b {
+        width: 44px;
+        height: 39px;
+        float: left;
+        padding: 13px;
+        opacity: 0.8;
+        background: #000;
+        font-size: 16px; }
+      #market #m-bottom #m-left #hufu em {
+        float: left;
+        background: #000;
+        opacity: 0.6;
+        font-style: normal;
+        width: 70px;
+        height: 45px;
+        display: block;
+        padding: 10px 30px;
+        font-size: 16px; }
+    #market #m-bottom #m-left span {
+      position: absolute;
+      display: block;
+      width: 32px;
+      height: 32px;
+      border-radius: 32px;
+      text-align: center;
+      line-height: 32px;
+      left: 188px;
+      bottom: 17px;
+      border: 2px solid #fff; }
+      #market #m-bottom #m-left span a {
+        color: #fff; }
+    #market #m-bottom #m-right #r-top {
+      height: 300px;
+      padding-bottom: 13px; }
+      #market #m-bottom #m-right #r-top #tab {
+        float: left;
+        width: 467px;
+        height: 283px;
+        background: #fff;
+        padding: 10px; }
+        #market #m-bottom #m-right #r-top #tab ul {
+          width: 480px;
+          height: 58px; }
+          #market #m-bottom #m-right #r-top #tab ul .first {
+            width: 230px;
+            height: 58px;
+            float: left;
+            background: #F1F1F1;
+            text-align: center;
+            line-height: 58px; }
+          #market #m-bottom #m-right #r-top #tab ul .last {
+            width: 230px;
+            height: 58px;
+            float: left;
+            background: #00b262;
+            color: #fff;
+            text-align: center;
+            line-height: 58px; }
+        #market #m-bottom #m-right #r-top #tab #detail01 img {
+          width: 460px;
+          height: 230px; }
+        #market #m-bottom #m-right #r-top #tab #detail02 {
+          display: none; }
+          #market #m-bottom #m-right #r-top #tab #detail02 img {
+            width: 460px;
+            height: 230px; }
+      #market #m-bottom #m-right #r-top dl {
+        float: left;
+        margin-left: 16px;
+        width: 240px;
+        height: 303px;
+        background: #fff;
+        text-align: center; }
+        #market #m-bottom #m-right #r-top dl img {
+          display: inline-block; }
+        #market #m-bottom #m-right #r-top dl p {
+          width: 120px;
+          height: 40px;
+          line-height: 20px;
+          margin-left: 50px;
+          margin-bottom: 10px; }
+          #market #m-bottom #m-right #r-top dl p a {
+            color: #000; }
+        #market #m-bottom #m-right #r-top dl em {
+          font-style: normal; }
+          #market #m-bottom #m-right #r-top dl em a {
+            color: #f00; }
+    #market #m-bottom #m-right #r-bottom dl {
+      float: left;
+      margin-left: 12px;
+      width: 240px;
+      height: 283px;
+      background: #fff;
+      text-align: center;
+      padding-top: 20px; }
+      #market #m-bottom #m-right #r-bottom dl:first-child {
+        margin-left: 0; }
+      #market #m-bottom #m-right #r-bottom dl img {
+        display: inline-block;
+        text-align: center; }
+      #market #m-bottom #m-right #r-bottom dl p {
+        width: 120px;
+        height: 40px;
+        line-height: 20px;
+        margin-left: 50px;
+        margin-bottom: 10px; }
+        #market #m-bottom #m-right #r-bottom dl p a {
+          color: #000; }
+      #market #m-bottom #m-right #r-bottom dl em {
+        font-style: normal; }
+        #market #m-bottom #m-right #r-bottom dl em a {
+          color: #f00; }
+
+#nation {
+  width: 100%;
+  height: 685px;
+  background: #f5f5f5; }
+  #nation #n-top {
+    height: 47px;
+    padding-top: 20px; }
+    #nation #n-top img {
+      float: left;
+      margin-left: 35px; }
+    #nation #n-top ul {
+      float: right;
+      margin-right: 74px; }
+      #nation #n-top ul li {
+        float: left;
+        margin: 0 13px; }
+        #nation #n-top ul li a {
+          color: #000; }
+  #nation #n-bottom {
+    margin-top: -10px; }
+    #nation #n-bottom ul {
+      height: 300px;
+      margin-left: 35px;
+      position: relative;
+      margin-bottom: 15px; }
+      #nation #n-bottom ul li {
+        width: 195px;
+        height: 260px;
+        background: #fff;
+        text-align: center;
+        float: left;
+        margin-left: 12px;
+        padding: 20px; }
+        #nation #n-bottom ul li:first-child {
+          width: 235px;
+          height: 300px;
+          margin-left: 0px;
+          padding: 0; }
+          #nation #n-bottom ul li:first-child img {
+            width: 100%;
+            height: 100%; }
+        #nation #n-bottom ul li img {
+          display: inline-block;
+          width: 185px;
+          height: 185px; }
+        #nation #n-bottom ul li p {
+          font-size: 12px;
+          width: 125px;
+          height: 40px;
+          margin: 0 auto;
+          line-height: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px; }
+          #nation #n-bottom ul li p a {
+            color: #000; }
+        #nation #n-bottom ul li b {
+          font-weight: 900;
+          margin-top: 10px; }
+          #nation #n-bottom ul li b a {
+            color: #f00; }
+      #nation #n-bottom ul #xuan {
+        position: absolute;
+        width: 200px;
+        height: 65px;
+        top: 180px;
+        left: 0; }
+        #nation #n-bottom ul #xuan a {
+          color: #fff; }
+        #nation #n-bottom ul #xuan b {
+          width: 44px;
+          height: 39px;
+          float: left;
+          padding: 13px;
+          opacity: 0.8;
+          background: #000;
+          font-size: 16px; }
+        #nation #n-bottom ul #xuan em {
+          float: left;
+          background: #000;
+          opacity: 0.6;
+          font-style: normal;
+          width: 70px;
+          height: 45px;
+          display: block;
+          padding: 10px 30px;
+          font-size: 16px; }
+      #nation #n-bottom ul span {
+        position: absolute;
+        display: block;
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+        text-align: center;
+        line-height: 32px;
+        left: 188px;
+        bottom: 10px;
+        border: 2px solid #fff; }
+        #nation #n-bottom ul span a {
+          color: #fff; }
+
+#buy {
+  background: #F5F5F5; }
+  #buy img {
+    width: 100%;
+    height: 110px; }
+
+#life {
+  width: 100%;
+  height: 676px;
+  background: #f5f5f5; }
+  #life #l-top {
+    height: 33px;
+    margin-left: 33px;
+    padding-top: 25px; }
+    #life #l-top span {
+      display: block;
+      width: 6px;
+      height: 20px;
+      margin-right: 14px;
+      background: #333333;
+      float: left; }
+    #life #l-top h2 {
+      float: left;
+      font-size: 18px;
+      font-weight: 100; }
+    #life #l-top ul {
+      float: right;
+      margin-right: 80px;
+      font-size: 12px; }
+      #life #l-top ul li {
+        float: left;
+        margin: 0 12px; }
+        #life #l-top ul li a {
+          color: #000; }
+  #life #l-bottom {
+    height: 618px; }
+    #life #l-bottom #b-left img {
+      margin-left: 33px;
+      float: left;
+      width: 236px;
+      height: 618px; }
+    #life #l-bottom #b-right ul li {
+      float: left;
+      margin-left: 12px;
+      width: 237px;
+      height: 281px;
+      margin-bottom: 15px;
+      background: #fff;
+      padding-top: 22px; }
+      #life #l-bottom #b-right ul li img {
+        width: 183px;
+        height: 183px;
+        margin: 0 auto; }
+      #life #l-bottom #b-right ul li p {
+        width: 125px;
+        height: 40px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center; }
+        #life #l-bottom #b-right ul li p a {
+          color: #000; }
+      #life #l-bottom #b-right ul li span {
+        width: 40px;
+        height: 14px;
+        display: block;
+        margin: 0 auto; }
+        #life #l-bottom #b-right ul li span a {
+          color: #f00; }
