@@ -21,7 +21,7 @@
 						<b>手机扫码，安全登录</b>
 					</div>
 					<div id="right">
-						<img src="images/2.png"/>
+						<img src="images/2.png" id="erweima"/>
 					</div>
 				</div>
 				<div id="center">
@@ -31,33 +31,46 @@
 					<p>扫一扫登录</p>
 				</div>
 				<div id="bottom">
-					<span>密码登录</span>
-					<span>免费注册</span>
+					<span id="mima02">密码登录</span>
+					<a href="regist.html"><span>免费注册</span></a>
 				</div>
+				
 			</div>
 			<div id="login2">
 				<div id="top">
+					<p id="alert1">
+						请输入用户名和密码
+					</p>
+					<p id="alert2">
+						请输入用户名
+					</p>
+					<p id="alert3">
+						请输入密码
+					</p>
+					<p id="alert4">
+						你输入的密码和账户名不匹配，是否忘记密码或忘记用户名
+					</p>
 					<div id="left">
 						<img src="images/4.png"/>
-						<b>密码登录</b>
+						<b id="mima03">密码登录</b>
 					</div>
 					<div id="right">
-						<img src="images/5.png"/>
+						<img src="images/5.png" id="mima"/>
 					</div>
 				</div>
 				<div id="user">
 					<em class="iconfont">&#xe69b;</em>
-					<input type="text" name="" id="" placeholder="会员名/邮箱/手机号" />
+					<input type="text" name="" id="loginName" placeholder="会员名/邮箱/手机号" />
 				</div>
 				<div id="password">
 					<em class="iconfont">&#xe610;</em>
-					<input type="password" id="" value="" />
+					<input type="password" id="loginPassword" value="" />
 					<input type="button"  id="btn" value="登录" />
 				</div>
 				<div id="bottom">
 					<a href="#"><span>忘记密码</span></a>
 					<a href="#"><span>忘记会员名</span></a>
-					<a href="#"><span>免费注册</span></a>
+					<a href="regist.html"><span>免费注册</span></a>
 				</div>
 			</div>
 		</div>
@@ -71,6 +84,7 @@
 　浙江省网络食品销售第三方平台提供者备案：浙网食A33010002 12318举报
 © 2003-2018 TMALL.COM 版权所有</div>
 		</footer>
-		
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

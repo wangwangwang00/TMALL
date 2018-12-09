@@ -9,12 +9,15 @@
 		<div class="regist">
 			<img src="images/logo.png"/>
 			<p>欢迎来到注册页面</p>
-			<span>已有账号，立即<a href="#">登录</a></span>
+			<span>已有账号，立即<a href="login.html">登录</a></span>
 			<form action="">
-				　<b>*</b>账户名：<input type="text"  /><br/><br/>
-				<b>*</b>登录密码：<input type="password" /><br/><br/>
-				<b>*</b>确认密码：<input type="password" /><br/><br/>
-				　<b>*</b>验证码：<input type="text" id="yanzheng"/><br/><br/>
+				　<b>*</b>用户名：<input type="text"  id="username"/><br/><br/>
+				　　<b>*</b>密码：<input type="password" id="password1"/><br/><br/>
+				<b>*</b>确认密码：<input type="password" id="password2"/><br/><br/>
+				　　<b>*</b>邮箱：<input type="text" id="Email"/><br/><br/>
+				        <b>*</b>性别：<input type="text" 
+id="sex"/><br/><br/>
+					　<b>*</b>验证码：<input type="text" id="yanzheng"/><br/><br/>
 				<div id="agree">
 					<input type="checkbox" name="" id="check" value="" checked="checked" disabled="disabled"/>
 					<p>我已阅读并同意注册协议</p>
@@ -24,6 +27,7 @@
 				
 			</form>
 		</div>
-
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/regist.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
