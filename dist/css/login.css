@@ -95,7 +95,8 @@ body {
     #login1 #bottom span {
       font-size: 12px;
       margin-right: 14px;
-      color: #6c6c6c; }
+      color: #6c6c6c;
+      cursor: pointer; }
 
 #login2 {
   position: absolute;
@@ -106,9 +107,54 @@ body {
   background: #fff;
   padding: 5px; }
   #login2 #top {
+    position: relative;
     height: 68px;
     width: 340px;
     margin-bottom: 20px; }
+    #login2 #top #alert1 {
+      position: absolute;
+      display: none;
+      top: 40px;
+      left: 30px;
+      background: pink;
+      width: 200px;
+      height: 25px;
+      line-height: 25px;
+      font-size: 12px;
+      padding: 0 10px; }
+    #login2 #top #alert2 {
+      position: absolute;
+      display: none;
+      top: 40px;
+      left: 30px;
+      background: pink;
+      width: 200px;
+      height: 25px;
+      line-height: 25px;
+      font-size: 12px;
+      padding: 0 10px; }
+    #login2 #top #alert3 {
+      position: absolute;
+      display: none;
+      top: 40px;
+      left: 30px;
+      background: pink;
+      width: 200px;
+      height: 25px;
+      line-height: 25px;
+      font-size: 12px;
+      padding: 0 10px; }
+    #login2 #top #alert4 {
+      position: absolute;
+      display: none;
+      top: 40px;
+      left: 30px;
+      background: pink;
+      width: 250px;
+      height: 40px;
+      line-height: 18px;
+      font-size: 12px;
+      padding: 0 10px; }
     #login2 #top #left {
       width: 280px;
       height: 68px;
