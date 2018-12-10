@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'iconfont';
   /* project id 955758 */
-  src: url("//at.alicdn.com/t/font_955758_rr17dlag70p.eot");
-  src: url("//at.alicdn.com/t/font_955758_rr17dlag70p.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_955758_rr17dlag70p.woff") format("woff"), url("//at.alicdn.com/t/font_955758_rr17dlag70p.ttf") format("truetype"), url("//at.alicdn.com/t/font_955758_rr17dlag70p.svg#iconfont") format("svg"); }
+  src: url("//at.alicdn.com/t/font_955758_ibye7os3cws.eot");
+  src: url("//at.alicdn.com/t/font_955758_ibye7os3cws.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_955758_ibye7os3cws.woff") format("woff"), url("//at.alicdn.com/t/font_955758_ibye7os3cws.ttf") format("truetype"), url("//at.alicdn.com/t/font_955758_ibye7os3cws.svg#iconfont") format("svg"); }
 
 .iconfont {
   font-family: "iconfont" !important;
@@ -26,141 +26,241 @@ img {
   border: none;
   display: block; }
 
-#header {
+#warp #black {
+  position: fixed;
+  width: 60px;
+  background: #000;
+  top: 250px;
+  right: 8px;
+  font-size: 30px; }
+  #warp #black ul li {
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    font-size: 20px; }
+    #warp #black ul li a {
+      color: #fff; }
+    #warp #black ul li:hover {
+      background: #ff0036; }
+
+#warp #fly {
+  top: 0;
+  width: 100%;
+  height: 45px;
+  background: #ff0036;
+  opacity: 0.9;
+  display: none; }
+  #warp #fly h2 {
+    margin-left: 35px;
+    float: left;
+    color: #fff;
+    font-weight: 100;
+    line-height: 45px;
+    font-family: "arial narrow"; }
+  #warp #fly #seek {
+    width: 600px;
+    height: 30px;
+    margin-left: 100px;
+    float: left; }
+    #warp #fly #seek #ttxt {
+      float: left;
+      width: 400px;
+      height: 30px;
+      margin-top: 7px;
+      border: none;
+      background: #ff0036;
+      color: #fff; }
+    #warp #fly #seek #bbtn {
+      float: left;
+      color: #ff0036;
+      width: 60px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      background: #fff;
+      border: 0;
+      margin-top: 10px;
+      margin-left: 5px; }
+
+#warp #floorNav {
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  width: 31px;
+  border: 1px solid #CECECE;
+  background: #000;
+  color: #fff; }
+
+#warp #floorNav li {
+  position: relative;
+  width: 31px;
+  height: 44px;
+  border-bottom: 1px solid #CECECE;
+  text-align: center;
+  line-height: 44px;
+  font-size: 12px;
+  cursor: pointer; }
+
+#warp #floorNav span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31px;
+  height: 44px;
+  background: red;
+  color: white;
+  line-height: 20px; }
+
+#warp #floorNav li:hover span,
+#warp #floorNav li.hover span {
+  display: block; }
+
+#warp #floorNav li:last-child {
+  background: red;
+  color: white;
+  border-bottom: none; }
+
+#warp #header {
   width: 100%;
   height: 33px;
   background: #f2f2f2;
   font-size: 12px; }
-  #header .list01 {
+  #warp #header .list01 {
     float: left;
     margin-left: 33px; }
-    #header .list01 li {
+    #warp #header .list01 li {
       line-height: 33px;
       float: left;
       margin-right: 20px;
       color: #999999; }
-      #header .list01 li a {
+      #warp #header .list01 li a {
         color: #999999; }
-  #header .list001 {
+  #warp #header .list001 {
     display: none;
     float: left;
     margin-left: 33px; }
-    #header .list001 li {
+    #warp #header .list001 li {
       line-height: 33px;
       float: left;
       margin-right: 20px;
       color: #999999; }
-      #header .list001 li a {
+      #warp #header .list001 li a {
         color: #999999; }
-  #header .list02 {
+  #warp #header .list02 {
     float: right;
     margin-right: 34px; }
-    #header .list02 em {
+    #warp #header .list02 em {
       font-size: 8px;
       color: #bbbbbb;
       margin-left: 3px; }
-    #header .list02 li {
+    #warp #header .list02 li {
       margin-right: 20px;
       float: left;
       line-height: 33px;
       color: #999999; }
-      #header .list02 li a {
+      #warp #header .list02 li a {
         color: #999999; }
-      #header .list02 li span {
+      #warp #header .list02 li span {
         color: #ff0036;
         margin-right: 5px; }
 
-#nav {
+#warp #nav {
   width: 100%;
   height: 135px;
   border-bottom: 2px solid #ff0036;
   padding-top: 30px; }
-  #nav #top {
+  #warp #nav #top {
     width: 100%;
     height: 80px; }
-    #nav #top img {
+    #warp #nav #top img {
       float: left;
       margin-left: 45px; }
-    #nav #top #right {
+    #warp #nav #top #right {
       float: left;
       margin-left: 130px; }
-      #nav #top #right #search {
+      #warp #nav #top #right #search {
         width: 620px;
         height: 36px;
         background: #ff0036;
         padding: 2px; }
-        #nav #top #right #search #txt {
+        #warp #nav #top #right #search #txt {
           width: 482px;
           height: 26px;
           border: none;
           padding: 5px; }
-        #nav #top #right #search #btn {
+        #warp #nav #top #right #search #btn {
           color: #fff;
           font-size: 20px;
           border: none;
           background: none;
           width: 120px; }
-      #nav #top #right ul {
+      #warp #nav #top #right ul {
         margin-top: 7px;
         font-size: 12px; }
-        #nav #top #right ul .active a {
+        #warp #nav #top #right ul .active a {
           color: #ff0036; }
-        #nav #top #right ul li {
+        #warp #nav #top #right ul li {
           float: left;
           width: 55px;
           height: 15px;
           border-right: 1px solid #999999;
           text-align: center; }
-          #nav #top #right ul li a {
+          #warp #nav #top #right ul li a {
             color: #999999; }
-  #nav #bottom ul {
+  #warp #nav #bottom ul {
     width: 782px;
     height: 25px;
     margin: 0 auto;
     margin-top: 23px; }
-    #nav #bottom ul li {
+    #warp #nav #bottom ul li {
       float: left;
       font-size: 14px;
       margin: 0 7px; }
-      #nav #bottom ul li img {
+      #warp #nav #bottom ul li img {
         width: 96px;
         height: 20px; }
-      #nav #bottom ul li a {
+      #warp #nav #bottom ul li a {
         color: #333333; }
 
-#banner {
+#warp #banner {
   position: relative;
   width: 100%;
   height: 400px;
   overflow: hidden; }
 
-#imgList {
-  width: 1200px;
+#warp #imgList {
+  width: 1220px;
   height: 400px;
-  margin: 0 auto; }
+  margin-left: 35px;
+  margin-right: 74px; }
 
-#imgList li {
+#warp #imgList li {
   position: absolute;
+  width: 1220px;
+  height: 400px;
   top: 0;
-  left: 0;
+  left: 35px;
   opacity: 0;
   filter: alpha(opacity=0); }
 
-#imgList li:first-child {
+#warp #imgList li:first-child {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-#imgList img {
-  width: 1238px;
-  height: 400px;
-  margin-left: 35px; }
+#warp #imgList img {
+  width: 100%;
+  height: 400px; }
 
-#nums {
+#warp #nums {
   position: absolute;
   bottom: 10px;
   right: 200px; }
 
-#nums li {
+#warp #nums li {
   float: left;
   margin: 10px;
   width: 20px;
@@ -172,70 +272,91 @@ img {
   line-height: 20px;
   cursor: pointer; }
 
-#nums li:hover, #nums li.hover {
+#warp #nums li:hover,
+#warp #nums li.hover {
   background: red;
   color: white; }
 
-#list {
+#warp #list {
   width: 100%;
   height: 385px;
   background: #f5f5f5;
   padding-bottom: 10px; }
-  #list #left {
+  #warp #list #left {
     float: left;
     width: 235px;
     height: 370px;
     background: #fff;
     margin: 0 16px 0 35px; }
-    #list #left p {
+    #warp #list #left p {
       height: 55px;
       line-height: 55px;
       margin-left: 10px;
       font-weight: 600; }
-  #list #center {
+  #warp #list #center {
     float: left;
     width: 485px;
     height: 370px;
     background: #fff;
     margin-right: 18px; }
-    #list #center p {
+    #warp #list #center p {
       height: 55px;
       line-height: 55px;
       margin-left: 10px;
       font-weight: 600;
       float: left; }
-    #list #center span {
+    #warp #list #center span {
       float: right;
       margin-right: 13px;
       line-height: 55px; }
-  #list #right {
+  #warp #list #right {
     float: left;
     width: 485px;
     height: 370px;
     background: #fff; }
-    #list #right p {
+    #warp #list #right p {
       height: 55px;
       line-height: 55px;
       margin-left: 10px;
       font-weight: 600;
       float: left; }
-    #list #right span {
+    #warp #list #right span {
       float: right;
       margin-right: 13px;
       line-height: 55px; }
 
-.slist {
+#warp .slist {
   width: 100%;
   height: 340px;
   background: #f5f5f5; }
-  .slist ul {
+  #warp .slist ul {
     margin: 0px 50px 0 30px;
     width: 1240px;
     padding-left: 8px; }
-    .slist ul li {
+    #warp .slist ul li {
       float: left;
       margin-right: 1px;
-      margin-bottom: 1px; }
+      margin-bottom: 1px;
+      overflow: hidden;
+      position: relative;
+      width: 123px;
+      height: 108px; }
+      #warp .slist ul li span {
+        display: none;
+        width: 123px;
+        height: 108px;
+        background: #000;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        #warp .slist ul li span a {
+          color: #fff;
+          text-align: center;
+          line-height: 123px;
+          display: block;
+          z-index: 2;
+          font-size: 14px; }
 
 #market {
   width: 100%;
@@ -311,14 +432,14 @@ img {
         #market #m-bottom #m-right #r-top #tab ul {
           width: 480px;
           height: 58px; }
-          #market #m-bottom #m-right #r-top #tab ul .first {
+          #market #m-bottom #m-right #r-top #tab ul li {
             width: 230px;
             height: 58px;
             float: left;
             background: #F1F1F1;
             text-align: center;
             line-height: 58px; }
-          #market #m-bottom #m-right #r-top #tab ul .last {
+          #market #m-bottom #m-right #r-top #tab ul .active {
             width: 230px;
             height: 58px;
             float: left;
@@ -340,46 +461,82 @@ img {
         width: 240px;
         height: 303px;
         background: #fff;
-        text-align: center; }
+        text-align: center;
+        position: relative; }
         #market #m-bottom #m-right #r-top dl img {
-          display: inline-block; }
+          display: inline-block;
+          width: 168px;
+          height: 168px;
+          text-align: center; }
         #market #m-bottom #m-right #r-top dl p {
           width: 120px;
           height: 40px;
           line-height: 20px;
           margin-left: 50px;
-          margin-bottom: 10px; }
+          margin-bottom: 10px;
+          margin-top: 10px;
+          font-size: 12px; }
           #market #m-bottom #m-right #r-top dl p a {
             color: #000; }
         #market #m-bottom #m-right #r-top dl em {
           font-style: normal; }
           #market #m-bottom #m-right #r-top dl em a {
             color: #f00; }
+        #market #m-bottom #m-right #r-top dl b {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 238px;
+          height: 301px;
+          background: #fff;
+          opacity: 0.5;
+          border: 1px solid #f00;
+          display: none; }
+        #market #m-bottom #m-right #r-top dl:hover b {
+          display: block; }
     #market #m-bottom #m-right #r-bottom dl {
+      position: relative;
       float: left;
       margin-left: 12px;
       width: 240px;
       height: 283px;
       background: #fff;
       text-align: center;
-      padding-top: 20px; }
+      padding-top: 20px;
+      font-size: 12px; }
       #market #m-bottom #m-right #r-bottom dl:first-child {
         margin-left: 0; }
       #market #m-bottom #m-right #r-bottom dl img {
         display: inline-block;
-        text-align: center; }
+        text-align: center;
+        width: 168px;
+        height: 168px; }
       #market #m-bottom #m-right #r-bottom dl p {
         width: 120px;
         height: 40px;
         line-height: 20px;
         margin-left: 50px;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        margin-top: 10px; }
         #market #m-bottom #m-right #r-bottom dl p a {
           color: #000; }
       #market #m-bottom #m-right #r-bottom dl em {
         font-style: normal; }
         #market #m-bottom #m-right #r-bottom dl em a {
-          color: #f00; }
+          color: #f00;
+          font-size: 14px; }
+      #market #m-bottom #m-right #r-bottom dl b {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 238px;
+        height: 301px;
+        background: #fff;
+        opacity: 0.5;
+        border: 1px solid #f00;
+        display: none; }
+      #market #m-bottom #m-right #r-bottom dl:hover b {
+        display: block; }
 
 #nation {
   width: 100%;
@@ -393,10 +550,12 @@ img {
       margin-left: 35px; }
     #nation #n-top ul {
       float: right;
-      margin-right: 74px; }
+      margin-right: 74px;
+      font-size: 14px; }
       #nation #n-top ul li {
         float: left;
-        margin: 0 13px; }
+        margin: 0 13px;
+        font-size: 14px; }
         #nation #n-top ul li a {
           color: #000; }
   #nation #n-bottom {
@@ -405,7 +564,8 @@ img {
       height: 300px;
       margin-left: 35px;
       position: relative;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      margin-right: 74px; }
       #nation #n-bottom ul li {
         width: 195px;
         height: 260px;
@@ -481,48 +641,83 @@ img {
         #nation #n-bottom ul span a {
           color: #fff; }
 
-#buy {
-  background: #F5F5F5; }
-  #buy img {
-    width: 100%;
-    height: 110px; }
-
-#life, #play, #home, #love, #outdoor {
+#life,
+#play,
+#home,
+#love {
   width: 100%;
-  height: 676px;
+  height: 786px;
   background: #f5f5f5; }
-  #life #l-top, #play #l-top, #home #l-top, #love #l-top, #outdoor #l-top {
+  #life #buy,
+  #play #buy,
+  #home #buy,
+  #love #buy {
+    background: #F5F5F5; }
+    #life #buy img,
+    #play #buy img,
+    #home #buy img,
+    #love #buy img {
+      width: 100%;
+      height: 110px; }
+  #life #l-top,
+  #play #l-top,
+  #home #l-top,
+  #love #l-top {
     height: 33px;
     margin-left: 33px;
     padding-top: 25px; }
-    #life #l-top span, #play #l-top span, #home #l-top span, #love #l-top span, #outdoor #l-top span {
+    #life #l-top span,
+    #play #l-top span,
+    #home #l-top span,
+    #love #l-top span {
       display: block;
       width: 6px;
       height: 20px;
       margin-right: 14px;
       background: #333333;
       float: left; }
-    #life #l-top h2, #play #l-top h2, #home #l-top h2, #love #l-top h2, #outdoor #l-top h2 {
+    #life #l-top h2,
+    #play #l-top h2,
+    #home #l-top h2,
+    #love #l-top h2 {
       float: left;
       font-size: 18px;
       font-weight: 100; }
-    #life #l-top ul, #play #l-top ul, #home #l-top ul, #love #l-top ul, #outdoor #l-top ul {
+    #life #l-top ul,
+    #play #l-top ul,
+    #home #l-top ul,
+    #love #l-top ul {
       float: right;
       margin-right: 80px;
       font-size: 12px; }
-      #life #l-top ul li, #play #l-top ul li, #home #l-top ul li, #love #l-top ul li, #outdoor #l-top ul li {
+      #life #l-top ul li,
+      #play #l-top ul li,
+      #home #l-top ul li,
+      #love #l-top ul li {
         float: left;
         margin: 0 12px; }
-        #life #l-top ul li a, #play #l-top ul li a, #home #l-top ul li a, #love #l-top ul li a, #outdoor #l-top ul li a {
+        #life #l-top ul li a,
+        #play #l-top ul li a,
+        #home #l-top ul li a,
+        #love #l-top ul li a {
           color: #000; }
-  #life #l-bottom, #play #l-bottom, #home #l-bottom, #love #l-bottom, #outdoor #l-bottom {
+  #life #l-bottom,
+  #play #l-bottom,
+  #home #l-bottom,
+  #love #l-bottom {
     height: 618px; }
-    #life #l-bottom #b-left img, #play #l-bottom #b-left img, #home #l-bottom #b-left img, #love #l-bottom #b-left img, #outdoor #l-bottom #b-left img {
+    #life #l-bottom #b-left img,
+    #play #l-bottom #b-left img,
+    #home #l-bottom #b-left img,
+    #love #l-bottom #b-left img {
       margin-left: 33px;
       float: left;
       width: 236px;
       height: 618px; }
-    #life #l-bottom #b-right ul li, #play #l-bottom #b-right ul li, #home #l-bottom #b-right ul li, #love #l-bottom #b-right ul li, #outdoor #l-bottom #b-right ul li {
+    #life #l-bottom #b-right ul li,
+    #play #l-bottom #b-right ul li,
+    #home #l-bottom #b-right ul li,
+    #love #l-bottom #b-right ul li {
       float: left;
       margin-left: 12px;
       width: 237px;
@@ -530,11 +725,17 @@ img {
       margin-bottom: 15px;
       background: #fff;
       padding-top: 22px; }
-      #life #l-bottom #b-right ul li img, #play #l-bottom #b-right ul li img, #home #l-bottom #b-right ul li img, #love #l-bottom #b-right ul li img, #outdoor #l-bottom #b-right ul li img {
+      #life #l-bottom #b-right ul li img,
+      #play #l-bottom #b-right ul li img,
+      #home #l-bottom #b-right ul li img,
+      #love #l-bottom #b-right ul li img {
         width: 183px;
         height: 183px;
         margin: 0 auto; }
-      #life #l-bottom #b-right ul li p, #play #l-bottom #b-right ul li p, #home #l-bottom #b-right ul li p, #love #l-bottom #b-right ul li p, #outdoor #l-bottom #b-right ul li p {
+      #life #l-bottom #b-right ul li p,
+      #play #l-bottom #b-right ul li p,
+      #home #l-bottom #b-right ul li p,
+      #love #l-bottom #b-right ul li p {
         width: 125px;
         height: 40px;
         margin: 0 auto;
@@ -543,27 +744,108 @@ img {
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center; }
-        #life #l-bottom #b-right ul li p a, #play #l-bottom #b-right ul li p a, #home #l-bottom #b-right ul li p a, #love #l-bottom #b-right ul li p a, #outdoor #l-bottom #b-right ul li p a {
+        #life #l-bottom #b-right ul li p a,
+        #play #l-bottom #b-right ul li p a,
+        #home #l-bottom #b-right ul li p a,
+        #love #l-bottom #b-right ul li p a {
           color: #000; }
-      #life #l-bottom #b-right ul li span, #play #l-bottom #b-right ul li span, #home #l-bottom #b-right ul li span, #love #l-bottom #b-right ul li span, #outdoor #l-bottom #b-right ul li span {
+      #life #l-bottom #b-right ul li span,
+      #play #l-bottom #b-right ul li span,
+      #home #l-bottom #b-right ul li span,
+      #love #l-bottom #b-right ul li span {
         width: 40px;
         height: 14px;
         display: block;
         margin: 0 auto; }
-        #life #l-bottom #b-right ul li span a, #play #l-bottom #b-right ul li span a, #home #l-bottom #b-right ul li span a, #love #l-bottom #b-right ul li span a, #outdoor #l-bottom #b-right ul li span a {
+        #life #l-bottom #b-right ul li span a,
+        #play #l-bottom #b-right ul li span a,
+        #home #l-bottom #b-right ul li span a,
+        #love #l-bottom #b-right ul li span a {
           color: #f00; }
+
+#outdoor {
+  width: 100%;
+  height: 700px;
+  background: #f5f5f5; }
+  #outdoor #buy {
+    background: #F5F5F5; }
+    #outdoor #buy img {
+      width: 100%;
+      height: 110px; }
+  #outdoor #l-top {
+    height: 33px;
+    margin-left: 33px;
+    padding-top: 25px; }
+    #outdoor #l-top span {
+      display: block;
+      width: 6px;
+      height: 20px;
+      margin-right: 14px;
+      background: #333333;
+      float: left; }
+    #outdoor #l-top h2 {
+      float: left;
+      font-size: 18px;
+      font-weight: 100; }
+    #outdoor #l-top ul {
+      float: right;
+      margin-right: 80px;
+      font-size: 12px; }
+      #outdoor #l-top ul li {
+        float: left;
+        margin: 0 12px; }
+        #outdoor #l-top ul li a {
+          color: #000; }
+  #outdoor #l-bottom {
+    height: 618px; }
+    #outdoor #l-bottom #b-left img {
+      margin-left: 33px;
+      float: left;
+      width: 236px;
+      height: 618px; }
+    #outdoor #l-bottom #b-right ul {
+      background: #f5f5f5; }
+      #outdoor #l-bottom #b-right ul li {
+        float: left;
+        margin-left: 12px;
+        width: 237px;
+        height: 281px;
+        margin-bottom: 15px;
+        background: #fff;
+        padding-top: 22px; }
+        #outdoor #l-bottom #b-right ul li img {
+          width: 183px;
+          height: 183px;
+          margin: 0 auto; }
+        #outdoor #l-bottom #b-right ul li p {
+          width: 125px;
+          height: 40px;
+          margin: 0 auto;
+          font-size: 12px;
+          line-height: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          text-align: center; }
+          #outdoor #l-bottom #b-right ul li p a {
+            color: #000; }
+        #outdoor #l-bottom #b-right ul li span {
+          width: 40px;
+          height: 14px;
+          display: block;
+          margin: 0 auto; }
+          #outdoor #l-bottom #b-right ul li span a {
+            color: #f00; }
 
 #like {
   width: 100%;
-  height: 600px;
-  margin-top: 20px;
+  height: 670px;
   background: #f5f5f5; }
   #like #like-top {
     width: 100%;
     height: 40px;
     text-align: center;
     font-size: 14px;
-    line-height: 40px; }
+    line-height: 30px; }
   #like #like-list ul {
     margin-right: 70px;
     font-size: 12px;
@@ -599,3 +881,32 @@ img {
         margin: 0 auto; }
         #like #like-list ul li span a {
           color: #f00; }
+
+#footer {
+  width: 100%;
+  font-size: 12px; }
+  #footer a {
+    color: #fff; }
+  #footer #f-wrap {
+    width: 900px;
+    margin: 0 auto; }
+    #footer #f-wrap #tmall-desc {
+      width: 900px;
+      margin: 0 auto;
+      height: 200px; }
+      #footer #f-wrap #tmall-desc dl {
+        font-size: 14px;
+        margin: 0 30px;
+        float: left;
+        width: 80px; }
+        #footer #f-wrap #tmall-desc dl dd a {
+          float: left;
+          color: grey; }
+        #footer #f-wrap #tmall-desc dl dt {
+          float: left; }
+    #footer #f-wrap #tmall-copyright {
+      background: #000;
+      color: #fff; }
+      #footer #f-wrap #tmall-copyright a {
+        margin: 0 5px;
+        color: #fff; }

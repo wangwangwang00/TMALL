@@ -35,8 +35,9 @@ oBtn.onclick=function(){
 			},function(data){
 				console.log(data);
 				if(data.msg=="OK"){//登录成功后，传值跳转
-					location.href="index.html?"+"name="+loginName.value;
-					//location.assign("index.html");
+					setCookie("username",loginName.value,7);
+					//location.href="index.html?"+"name="+loginName.value;
+					location.assign("index.html");
 					
 				}else{
 					alert4.style.display="block";
