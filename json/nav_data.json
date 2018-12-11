@@ -1,0 +1,458 @@
+[
+	{
+		"recm": [
+			{
+				"tit": "浪漫裙子",
+				"link": "#"
+			}, {
+				"tit": "当季流行",
+				"link": "#"
+			}, {
+				"tit": "精选上装",
+				"link": "#"
+			}, {
+				"tit": "特色女装",
+				"link": "#"
+			}, {
+				"tit": "家居服",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "女装新品",
+				"subNavList": [
+					"商场同款",
+					"衬衫",
+					"皮草"
+				]
+			},
+			{
+				"subNavTit": "裙装",
+				"subNavList": [
+					"连衣裙",
+					"半身裙",
+					"毛线裙"
+				]
+			},
+			{
+				"subNavTit": "家居",
+				"subNavList": [
+					"睡衣",
+					"春夏家居",
+					"家居袜"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "当季流行",
+				"link": "#"
+			}, {
+				"tit": "户外",
+				"link": "#"
+			}, {
+				"tit": "自行车",
+				"link": "#"
+			}, {
+				"tit": "运动服",
+				"link": "#"
+			}, {
+				"tit": "运动用品",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "运动",
+				"subNavList": [
+					"运动内衣",
+					"运动套装",
+					"运动卫衣"
+				]
+			},
+			{
+				"subNavTit": "自行车",
+				"subNavList": [
+					"折叠车",
+					"平衡车",
+					"折叠车"
+				]
+			},
+			{
+				"subNavTit": "流行",
+				"subNavList": [
+					"商场同款",
+					"修身夹克",
+					"棉衣"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "女鞋",
+				"link": "#"
+			}, {
+				"tit": "男鞋",
+				"link": "#"
+			}, {
+				"tit": "单鞋",
+				"link": "#"
+			}, {
+				"tit": "女包",
+				"link": "#"
+			}, {
+				"tit": "男包",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "单鞋",
+				"subNavList": [
+					"小白鞋",
+					"帆布鞋",
+					"高跟单鞋"
+				]
+			},
+			{
+				"subNavTit": "特色鞋",
+				"subNavList": [
+					"妈妈鞋",
+					"豆豆鞋",
+					"小码女鞋"
+				]
+			},
+			{
+				"subNavTit": "箱包",
+				"subNavList": [
+					"拉杆箱",
+					"旅行袋",
+					"万向轮箱"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "护肤品",
+				"link": "#"
+			}, {
+				"tit": "彩妆",
+				"link": "#"
+			}, {
+				"tit": "美发",
+				"link": "#"
+			}, {
+				"tit": "口腔护理",
+				"link": "#"
+			}, {
+				"tit": "沐浴",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "护肤",
+				"subNavList": [
+					"洗面奶",
+					"面膜",
+					"面霜"
+				]
+			},
+			{
+				"subNavTit": "男士护肤",
+				"subNavList": [
+					"洁面",
+					"爽肤水",
+					"控油"
+				]
+			},
+			{
+				"subNavTit": "护发",
+				"subNavList": [
+					"洗发水",
+					"护发素",
+					"发膜"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "黄金",
+				"link": "#"
+			}, {
+				"tit": "钻石",
+				"link": "#"
+			}, {
+				"tit": "珍珠",
+				"link": "#"
+			}, {
+				"tit": "翡翠",
+				"link": "#"
+			}, {
+				"tit": "腕表",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "眼镜",
+				"subNavList": [
+					"太阳镜",
+					"隐形",
+					"防辐射"
+				]
+			},
+			{
+				"subNavTit": "腕表",
+				"subNavList": [
+					"机械表",
+					"石英表",
+					"儿童手表"
+				]
+			},
+			{
+				"subNavTit": "烟具",
+				"subNavList": [
+					"电子烟",
+					"烟嘴",
+					"烟油"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "手机",
+				"link": "#"
+			}, {
+				"tit": "电脑",
+				"link": "#"
+			}, {
+				"tit": "数码",
+				"link": "#"
+			}, {
+				"tit": "游戏组装",
+				"link": "#"
+			}, {
+				"tit": "摄像",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "手机",
+				"subNavList": [
+					"苹果 ",
+					"小米",
+					"华为"
+				]
+			},
+			{
+				"subNavTit": "电脑",
+				"subNavList": [
+					"台式",
+					"笔记本",
+					"组装"
+				]
+			},
+			{
+				"subNavTit": "耳机",
+				"subNavList": [
+					"数码影音",
+					"相机",
+					"单反"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "618嗨购",
+				"link": "#"
+			}, {
+				"tit": "家电馆",
+				"link": "#"
+			}, {
+				"tit": "乡镇专卖店",
+				"link": "#"
+			}, {
+				"tit": "家电服务",
+				"link": "#"
+			}, {
+				"tit": "家电企业购",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "电视",
+				"subNavList": [
+					"曲面电视",
+					"超薄电视",
+					"HDR电视"
+				]
+			},
+			{
+				"subNavTit": "空调",
+				"subNavList": [
+					"壁挂式空调",
+					"柜式空调",
+					"中央空调"
+				]
+			},
+			{
+				"subNavTit": "洗衣机",
+				"subNavList": [
+					"滚筒洗衣机",
+					"波轮洗衣机",
+					"迷你洗衣机"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "618嗨购",
+				"link": "#"
+			}, {
+				"tit": "家电馆",
+				"link": "#"
+			}, {
+				"tit": "乡镇专卖店",
+				"link": "#"
+			}, {
+				"tit": "家电服务",
+				"link": "#"
+			}, {
+				"tit": "家电企业购",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "电视",
+				"subNavList": [
+					"曲面电视",
+					"超薄电视",
+					"HDR电视"
+				]
+			},
+			{
+				"subNavTit": "空调",
+				"subNavList": [
+					"壁挂式空调",
+					"柜式空调",
+					"中央空调"
+				]
+			},
+			{
+				"subNavTit": "洗衣机",
+				"subNavList": [
+					"滚筒洗衣机",
+					"波轮洗衣机",
+					"迷你洗衣机"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	}
+]
