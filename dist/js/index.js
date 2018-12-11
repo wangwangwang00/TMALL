@@ -51,7 +51,7 @@ function show() {
 show();
 
 var name=getCookie("username");
-console.log(name);
+
 /*var loc = location.href;
 var n1 = loc.length; //地址的总长度
 var n2 = loc.indexOf("="); //取得=号的位置
@@ -110,52 +110,60 @@ $(function() {
 	})
 })
 var oBanner = document.getElementById("banner");
-var oImgList = document.getElementById("imgList");
-//角标
-var oNum = document.getElementById("nums");
-var aNumList = oNum.children;
+			var oImgList = document.getElementById("imgList");
+			//角标
+			var oNum = document.getElementById("nums");
+			var aNumList = oNum.children;
 
-var aLi = oImgList.children;
+			var aLi = oImgList.children;
 
-var i = 0;
-var timer = setInterval(function() {
-	move();
-
-}, 3000)
-
-function move() {
-	i++;
-	if(i == aLi.length) {
-		i = 0;
-	}
-	if(i == -1) {
-		i = aLi.length - 1;
-	}
-	for(var j = 0; j < aNumList.length; j++) {
-		aNumList[j].className = "";
-	}
-	aNumList[i].className = "hover";
-	for(var k = 0; k < aLi.length; k++) {
-		startMove(aLi[k], {
-			opacity: 0
-		});
-	}
-	startMove(aLi[i], {
-		opacity: 100
-	});
-}
-
-for(let k = 0; k < aNumList.length; k++) {
-	aNumList[k].onmouseover = function() {
-		i = k - 1;
-		move();
-	}
-}
-oBanner.onmouseover = function() {
-	clearInterval(timer);
-}
-oBanner.onmouseout = function() {
-	timer = setInterval(function() {
-		move();
-	}, 3000);
-}
+			var i = 0;
+			var timer = setInterval(function(){
+				
+				move();
+				
+			},3000)
+			
+			function move(){
+				i++;
+				if(i==aLi.length){
+					i = 0;
+				}
+				if(i==-1){
+					i = aLi.length - 1;
+				}
+				for(var j = 0; j < aNumList.length; j++){
+					aNumList[j].className = "";
+				}
+					aNumList[i].className = "hover";
+				for(var k = 0; k < aLi.length; k++){
+					startMove(aLi[k],{opacity:0});
+				}
+				startMove(aLi[i],{opacity:100});
+			}
+			
+			var oBtn = document.getElementById("btns");
+			var aBtns = oBtn.children;
+			aBtns[0].onclick = function(){
+				i-=2;
+				move();
+			}
+			aBtns[1].onclick = function(){
+				move();
+			}
+			
+			
+			for(let k = 0; k < aNumList.length; k++){
+				aNumList[k].onmouseover = function(){
+					i = k-1;
+					move();
+				}
+			}	
+			oBanner.onmouseover = function(){
+				clearInterval(timer);
+			}
+			oBanner.onmouseout = function(){
+				timer = setInterval(function(){
+					move();
+				},3000);
+			}
