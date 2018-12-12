@@ -1,0 +1,273 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 955758 */
+  src: url("//at.alicdn.com/t/font_955758_ql8w2vu4ll.eot");
+  src: url("//at.alicdn.com/t/font_955758_ql8w2vu4ll.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_955758_ql8w2vu4ll.woff") format("woff"), url("//at.alicdn.com/t/font_955758_ql8w2vu4ll.ttf") format("truetype"), url("//at.alicdn.com/t/font_955758_ql8w2vu4ll.svg#iconfont") format("svg"); }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  border: none; }
+
+#header {
+  width: 100%;
+  height: 33px;
+  background: #f2f2f2;
+  font-size: 12px; }
+  #header .list01 {
+    float: left;
+    margin-left: 33px; }
+    #header .list01 li {
+      line-height: 33px;
+      float: left;
+      margin-right: 20px;
+      color: #999999; }
+      #header .list01 li a {
+        color: #999999; }
+  #header .list001 {
+    display: none;
+    float: left;
+    margin-left: 33px; }
+    #header .list001 li {
+      line-height: 33px;
+      float: left;
+      margin-right: 20px;
+      color: #999999; }
+      #header .list001 li a {
+        color: #999999; }
+  #header .list02 {
+    float: right;
+    margin-right: 34px; }
+    #header .list02 em {
+      font-size: 8px;
+      color: #bbbbbb;
+      margin-left: 3px; }
+    #header .list02 li {
+      margin-right: 20px;
+      float: left;
+      line-height: 33px;
+      color: #999999;
+      position: relative; }
+      #header .list02 li:last-child #web {
+        position: absolute;
+        width: 1000px;
+        height: 100px;
+        left: -800px;
+        top: 33px;
+        display: none;
+        color: #333333; }
+        #header .list02 li:last-child #web h2 {
+          margin-left: 20px;
+          font-weight: 100;
+          font-size: 16px; }
+        #header .list02 li:last-child #web #web01 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 480px;
+          height: 90px;
+          float: left;
+          border-right: 1px solid #ccc; }
+          #header .list02 li:last-child #web #web01 li {
+            float: left; }
+        #header .list02 li:last-child #web #web02 {
+          position: absolute;
+          top: 0;
+          left: 491px;
+          float: left;
+          height: 90px;
+          width: 250px;
+          border-right: 1px solid #ccc; }
+        #header .list02 li:last-child #web #web03 {
+          position: absolute;
+          top: 0;
+          left: 752px;
+          float: left;
+          height: 90px;
+          width: 250px; }
+      #header .list02 li:hover ul {
+        display: block; }
+      #header .list02 li:hover #web {
+        display: block; }
+      #header .list02 li ul {
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        top: 33px;
+        left: 0;
+        background: #fff;
+        display: none;
+        padding: 5px; }
+        #header .list02 li ul img {
+          width: 100px;
+          height: 80px; }
+      #header .list02 li a {
+        color: #999999; }
+      #header .list02 li span {
+        color: #ff0036;
+        margin-right: 5px; }
+
+.taobao {
+  width: 995px;
+  height: 80px;
+  margin: 0 auto; }
+  .taobao h2 {
+    float: left;
+    line-height: 80px;
+    font-weight: 100; }
+    .taobao h2 span {
+      color: #ff4400;
+      font-size: 40px;
+      margin-right: 10px; }
+  .taobao .t-search {
+    width: 518px;
+    height: 36px;
+    background: #ff4400;
+    float: right;
+    color: #fff;
+    margin-top: 20px; }
+    .taobao .t-search span {
+      display: block;
+      width: 77px;
+      height: 30px;
+      background: #f5f5f5;
+      color: #333;
+      float: left;
+      margin-top: 3px;
+      margin-left: 2px;
+      text-align: center;
+      line-height: 30px; }
+    .taobao .t-search #txt {
+      width: 330px;
+      height: 30px;
+      margin-top: 3px;
+      border: 0;
+      float: left; }
+    .taobao .t-search #btn {
+      width: 95px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      float: left;
+      border: none;
+      background: none;
+      margin-top: 3px;
+      color: #fff;
+      font-size: 18px; }
+
+.goods {
+  width: 995px;
+  margin: 0 auto; }
+  .goods ul {
+    float: left;
+    width: 100%;
+    height: 32px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-top: 5px; }
+    .goods ul li {
+      float: left;
+      width: 132px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      border-right: #e6e6e6;
+      font-size: 12px; }
+    .goods ul .money {
+      float: right;
+      width: 55px;
+      height: 26px;
+      background: #aaaaaa;
+      line-height: 22px;
+      text-align: center;
+      border-radius: 5px;
+      color: #fff;
+      margin-right: 6px;
+      margin-top: -5px; }
+    .goods ul .count {
+      float: right;
+      width: 150px;
+      height: 20x; }
+  .goods .select {
+    width: 100%;
+    height: 70px;
+    font-size: 12px; }
+    .goods .select input {
+      margin-left: 13px;
+      margin-top: 15px; }
+    .goods .select span {
+      margin-left: 100px; }
+    .goods .select ul {
+      width: 450px;
+      height: 45px;
+      border: 0;
+      float: right;
+      margin-right: 0px;
+      margin-top: 0; }
+      .goods .select ul li {
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        line-height: 45px; }
+  .goods .s-goods div {
+    width: 950px;
+    height: 93px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 40px; }
+    .goods .s-goods div #check {
+      float: left; }
+    .goods .s-goods div img {
+      width: 84px;
+      height: 84px;
+      float: left;
+      margin: 0 10px; }
+    .goods .s-goods div p {
+      float: left;
+      width: 300px;
+      margin-right: 150px; }
+    .goods .s-goods div span {
+      margin-right: 45px;
+      float: left; }
+    .goods .s-goods div b {
+      cursor: pointer; }
+      .goods .s-goods div b em {
+        font-style: normal;
+        display: block;
+        width: 20px;
+        height: 20px;
+        float: left;
+        border: 1px solid #ccc;
+        text-align: center; }
+    .goods .s-goods div a {
+      margin-left: 45px;
+      cursor: pointer; }
+
+.tb-footer {
+  width: 995px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 9px;
+  font-size: 12px; }
+  .tb-footer a {
+    color: #333; }
+
+tb-footer span {
+  margin: 0 4px; }

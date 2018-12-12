@@ -36,6 +36,7 @@ oBtn.onclick=function(){
 				console.log(data);
 				if(data.msg=="OK"){//登录成功后，传值跳转
 					setCookie("username",loginName.value,7);
+					setCookie("token",data.data.token,7);
 					//location.href="index.html?"+"name="+loginName.value;
 					location.assign("index.html");
 					

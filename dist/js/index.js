@@ -141,18 +141,7 @@ var oBanner = document.getElementById("banner");
 				}
 				startMove(aLi[i],{opacity:100});
 			}
-			
-			var oBtn = document.getElementById("btns");
-			var aBtns = oBtn.children;
-			aBtns[0].onclick = function(){
-				i-=2;
-				move();
-			}
-			aBtns[1].onclick = function(){
-				move();
-			}
-			
-			
+
 			for(let k = 0; k < aNumList.length; k++){
 				aNumList[k].onmouseover = function(){
 					i = k-1;
